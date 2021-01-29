@@ -1,5 +1,9 @@
 {
   "resources": [
+    {"id":{"name":"Player_Object","path":"objects/Player_Object/Player_Object.yy",},"order":0,},
+    {"id":{"name":"Wall_Object","path":"objects/Wall_Object/Wall_Object.yy",},"order":1,},
+    {"id":{"name":"Wall_Sprite","path":"sprites/Wall_Sprite/Wall_Sprite.yy",},"order":1,},
+    {"id":{"name":"Player_Sprite","path":"sprites/Player_Sprite/Player_Sprite.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
