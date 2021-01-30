@@ -1,22 +1,28 @@
 /// @desc Move with player
 
-light[| eLight.Direction] = obj_player.image_angle;
-
-var rebuild_shadows = false;
-
-if (obj_player.x != light[| eLight.X])
+var reposition_torch = false;
+if (direction != obj_player.image_angle)
 {
-	light[| eLight.X] = obj_player.x;
-	rebuild_shadows = true;
+	direction = obj_player.image_angle;
+	reposition_torch = true;
 }
 
-if (obj_player.y != light[| eLight.Y])
+if (x != obj_player.x)
 {
-	light[| eLight.Y] = obj_player.y;
-	rebuild_shadows = true;
+	x = obj_player.x;
+	reposition_torch = true;
 }
 
-if (rebuild_shadows)
+if (y != obj_player.y)
 {
+	y = obj_player.y;
+	reposition_torch = true;
+}
+
+if (reposition_torch)
+{
+	light[| eLight.X] = x + (28 * dcos(obj_player.image_angle));
+	light[| eLight.Y] = y - (28 * dsin(obj_player.image_angle));
+	light[| eLight.Direction] = obj_player.image_angle;
 	light[| eLight.Flags] |= eLightFlags.Dirty; // rebuild static shadow casters
 }
