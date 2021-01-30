@@ -67,7 +67,7 @@
         "GMObject",
         "GMRoom",
       ],"resourceVersion":"1.0","name":"Light_Range","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":0,"value":"1.3","rangeEnabled":true,"rangeMin":0.001,"rangeMax":30.0,"listItems":null,"multiselect":false,"filters":[
+    {"varType":0,"value":"1","rangeEnabled":true,"rangeMin":0.001,"rangeMax":30.0,"listItems":null,"multiselect":false,"filters":[
         "GMTileSet",
         "GMSprite",
         "GMSound",

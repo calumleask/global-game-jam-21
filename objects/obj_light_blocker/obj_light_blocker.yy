@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_light_blocker_1x6",
-    "path": "sprites/spr_light_blocker_1x6/spr_light_blocker_1x6.yy",
+    "name": "spr_light_blocker",
+    "path": "sprites/spr_light_blocker/spr_light_blocker.yy",
   },
   "solid": false,
   "visible": false,
@@ -24,16 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_light_blocker_6x1","path":"objects/obj_light_blocker_6x1/obj_light_blocker_6x1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_light_blocker","path":"objects/obj_light_blocker/obj_light_blocker.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "LightBlockers",
-    "path": "folders/Objects/Game/LightBlockers.yy",
+    "name": "Walls",
+    "path": "folders/Objects/Game/Walls.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_light_blocker_6x1",
+  "name": "obj_light_blocker",
   "tags": [],
   "resourceType": "GMObject",
 }
