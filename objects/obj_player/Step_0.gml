@@ -66,9 +66,8 @@ if (image_angle != direction)
 		image_angle += 360;
 	}
 	
-	if (round(image_angle) == round(direction))
+	if (image_angle = direction)
 	{
-		image_angle = direction;
 		turning = false;
 	}
 }
@@ -77,8 +76,13 @@ if (image_angle != direction)
 if (walking and not turning)
 {
 	speed = walking_speed;
+	if (!audio_is_playing(snd_footsteps))
+	{
+		audio_play_sound(snd_footsteps, 10, true);
+	}
 }
 else
 {
 	speed = 0;
+	audio_stop_sound(snd_footsteps);
 }
