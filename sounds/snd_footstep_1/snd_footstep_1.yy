@@ -1,6 +1,6 @@
 {
-  "compression": 1,
-  "volume": 0.25,
+  "compression": 0,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_footsteps.wav",
-  "duration": 15.9475174,
+  "soundFile": "snd_footstep_1.wav",
+  "duration": 0.255,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Footsteps",
+    "path": "folders/Sounds/Footsteps.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_footsteps",
+  "name": "snd_footstep_1",
   "tags": [],
   "resourceType": "GMSound",
 }

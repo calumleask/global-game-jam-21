@@ -76,13 +76,17 @@ if (image_angle != direction)
 if (walking and not turning)
 {
 	speed = walking_speed;
-	if (!audio_is_playing(snd_footsteps))
+	if (footsteps_manager = pointer_null)
 	{
-		audio_play_sound(snd_footsteps, 10, true);
+		footsteps_manager = instance_create_depth(0, 0, 0, obj_player_footstep_manager);
 	}
 }
 else
 {
+	if (footsteps_manager != pointer_null)
+	{
+		instance_destroy(footsteps_manager);
+		footsteps_manager = pointer_null;
+	}
 	speed = 0;
-	audio_stop_sound(snd_footsteps);
 }
