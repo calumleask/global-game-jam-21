@@ -33,8 +33,8 @@
     {"propertyId":{"name":"Light_Angle","path":"objects/obj_light/obj_light.yy",},"objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"value":"45","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Game",
-    "path": "folders/Objects/Game.yy",
+    "name": "Lights",
+    "path": "folders/Objects/Game/Lights.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_light_torch",

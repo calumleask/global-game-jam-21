@@ -30,8 +30,8 @@
     {"propertyId":{"name":"Light_Color","path":"objects/obj_light/obj_light.yy",},"objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"value":"$FF7070FF","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
-    "name": "Lights",
-    "path": "folders/Objects/Game/Lights.yy",
+    "name": "Game",
+    "path": "folders/Objects/Game.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_red_wall_light",

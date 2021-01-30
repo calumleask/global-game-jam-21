@@ -34,7 +34,7 @@
     "path": "folders/Objects/Game/Lights.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_red_wall_light",
+  "name": "obj_moon_light",
   "tags": [],
   "resourceType": "GMObject",
 }
