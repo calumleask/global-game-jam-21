@@ -1,25 +1,41 @@
-/// @description Start Walking
+/// @description Add movement keys to list
 
-if (keyboard_check_pressed(ord("W")) or keyboard_check_pressed(vk_up))
+if (keyboard_check_pressed(ord("W")))
 {
-	walking = true;
-	direction = 90;
+	ds_list_add(direction_keys_down, "W");
 }
 
-if (keyboard_check_pressed(ord("S")) or keyboard_check_pressed(vk_down))
+if (keyboard_check_pressed(ord("S")))
 {
-	walking = true;
-	direction = 270;
+	ds_list_add(direction_keys_down, "S");
 }
 
-if (keyboard_check_pressed(ord("A")) or keyboard_check_pressed(vk_left))
+if (keyboard_check_pressed(ord("A")))
 {
-	walking = true;
-	direction = 180;
+	ds_list_add(direction_keys_down, "A");
 }
 
-if (keyboard_check_pressed(ord("D")) or keyboard_check_pressed(vk_right))
+if (keyboard_check_pressed(ord("D")))
 {
-	walking = true;
-	direction = 0;
+	ds_list_add(direction_keys_down, "D");
+}
+
+if (keyboard_check_pressed(vk_up))
+{
+	ds_list_add(direction_keys_down, "vk_up");
+}
+
+if (keyboard_check_pressed(vk_down))
+{
+	ds_list_add(direction_keys_down, "vk_down");
+}
+
+if (keyboard_check_pressed(vk_left))
+{
+	ds_list_add(direction_keys_down, "vk_left");
+}
+
+if (keyboard_check_pressed(vk_right))
+{
+	ds_list_add(direction_keys_down, "vk_right");
 }

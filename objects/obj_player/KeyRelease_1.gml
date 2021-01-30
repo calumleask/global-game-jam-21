@@ -1,22 +1,49 @@
-/// @description Stop Walking
+/// @description Remove movement keys from list
 
-walking = false;
-if (keyboard_check(ord("W")) or keyboard_check(vk_up))
+if (keyboard_check_released(ord("W")))
 {
-	walking = true;
+	var pos = ds_list_find_index(direction_keys_down, "W");
+	ds_list_delete(direction_keys_down, pos);
 }
 
-if (keyboard_check(ord("S")) or keyboard_check(vk_down))
+if (keyboard_check_released(ord("S")))
 {
-	walking = true;
+	var pos = ds_list_find_index(direction_keys_down, "S");
+	ds_list_delete(direction_keys_down, pos);
 }
 
-if (keyboard_check(ord("A")) or keyboard_check(vk_left))
+if (keyboard_check_released(ord("A")))
 {
-	walking = true;
+	var pos = ds_list_find_index(direction_keys_down, "A");
+	ds_list_delete(direction_keys_down, pos);
 }
 
-if (keyboard_check(ord("D")) or keyboard_check(vk_right))
+if (keyboard_check_released(ord("D")))
 {
-	walking = true;
+	var pos = ds_list_find_index(direction_keys_down, "D");
+	ds_list_delete(direction_keys_down, pos);
+}
+
+if (keyboard_check_released(vk_up))
+{
+	var pos = ds_list_find_index(direction_keys_down, "vk_up");
+	ds_list_delete(direction_keys_down, pos);
+}
+
+if (keyboard_check_released(vk_down))
+{
+	var pos = ds_list_find_index(direction_keys_down, "vk_down");
+	ds_list_delete(direction_keys_down, pos);
+}
+
+if (keyboard_check_released(vk_left))
+{
+	var pos = ds_list_find_index(direction_keys_down, "vk_left");
+	ds_list_delete(direction_keys_down, pos);
+}
+
+if (keyboard_check_released(vk_right))
+{
+	var pos = ds_list_find_index(direction_keys_down, "vk_right");
+	ds_list_delete(direction_keys_down, pos);
 }
