@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"obj_red_wall_light","path":"objects/obj_red_wall_light/obj_red_wall_light.yy",},"order":4,},
     {"id":{"name":"cross_product","path":"scripts/cross_product/cross_product.yy",},"order":0,},
     {"id":{"name":"lighting_update_camera","path":"scripts/lighting_update_camera/lighting_update_camera.yy",},"order":3,},
     {"id":{"name":"light_draw_shadow_map","path":"scripts/light_draw_shadow_map/light_draw_shadow_map.yy",},"order":1,},
