@@ -18,6 +18,7 @@
     {"id":{"name":"light_update","path":"scripts/light_update/light_update.yy",},"order":4,},
     {"id":{"name":"spr_light_renderer","path":"sprites/spr_light_renderer/spr_light_renderer.yy",},"order":6,},
     {"id":{"name":"spr_light_area","path":"sprites/spr_light_area/spr_light_area.yy",},"order":2,},
+    {"id":{"name":"spr_trans_yellow","path":"sprites/spr_trans_yellow/spr_trans_yellow.yy",},"order":0,},
     {"id":{"name":"light_acknowledge_shadow_caster","path":"scripts/light_acknowledge_shadow_caster/light_acknowledge_shadow_caster.yy",},"order":0,},
     {"id":{"name":"light_destroy","path":"scripts/light_destroy/light_destroy.yy",},"order":11,},
     {"id":{"name":"light_remove_from_world","path":"scripts/light_remove_from_world/light_remove_from_world.yy",},"order":12,},
@@ -79,6 +80,7 @@
     {"id":{"name":"light_create","path":"scripts/light_create/light_create.yy",},"order":5,},
     {"id":{"name":"snd_footstep_8","path":"sounds/snd_footstep_8/snd_footstep_8.yy",},"order":7,},
     {"id":{"name":"ext_light_attenuation_apply","path":"scripts/ext_light_attenuation_apply/ext_light_attenuation_apply.yy",},"order":0,},
+    {"id":{"name":"obj_collision_light_switch","path":"objects/obj_collision_light_switch/obj_collision_light_switch.yy",},"order":4,},
     {"id":{"name":"light_enumerate_extensions","path":"scripts/light_enumerate_extensions/light_enumerate_extensions.yy",},"order":3,},
     {"id":{"name":"light_create_directional","path":"scripts/light_create_directional/light_create_directional.yy",},"order":7,},
     {"id":{"name":"obj_light_renderer","path":"objects/obj_light_renderer/obj_light_renderer.yy",},"order":1,},
@@ -156,6 +158,7 @@
     {"folderPath":"folders/Scripts/Utils.yy","order":2,"resourceVersion":"1.0","name":"Utils","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Game/Player.yy","order":4,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds/Environment.yy","order":4,"resourceVersion":"1.0","name":"Environment","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Misc.yy","order":3,"resourceVersion":"1.0","name":"Misc","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

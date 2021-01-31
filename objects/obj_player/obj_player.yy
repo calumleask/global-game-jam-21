@@ -3,7 +3,7 @@
     "name": "spr_player_walk",
     "path": "sprites/spr_player_walk/spr_player_walk.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,

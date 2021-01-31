@@ -38,3 +38,4 @@ if(LUT_Intensity != noone) {
 
 // Add the light to the world
 light_add_to_world(light);
+in_world = true;
