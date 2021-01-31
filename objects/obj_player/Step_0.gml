@@ -1,5 +1,11 @@
 /// @description Movement
 
+var temp_walking_speed = walking_speed;
+if (keyboard_check(vk_shift))
+{
+	walking_speed =	6;
+}
+
 // Handle movement keys down
 var num_direction_keys_down = ds_list_size(direction_keys_down);
 if (num_direction_keys_down > 0)
@@ -80,10 +86,7 @@ if (walking and not turning)
 	{
 		footsteps_manager = instance_create_depth(0, 0, 0, obj_player_footstep_manager);
 	}
-	if (image_speed = 0)
-	{
-		image_speed = 0.73 * walking_speed;
-	}
+	image_speed = walking_anmiation_speed * walking_speed;
 }
 else
 {
@@ -102,3 +105,5 @@ else
 	}
 	speed = 0;
 }
+
+walking_speed = temp_walking_speed;

@@ -9,3 +9,9 @@ if (walking)
 		image_speed = 0;
 	}
 }
+
+if (footsteps_manager != pointer_null)
+{
+	instance_destroy(footsteps_manager);
+	footsteps_manager = pointer_null;
+}

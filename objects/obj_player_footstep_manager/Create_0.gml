@@ -1,5 +1,5 @@
-/// @description Play footstep sound
+/// @description Init and set alarm
 
-footstep_number = random_int(1, 8);
+sound_id = pointer_null;
 
-//audio_play_sound(snd_footstep_1, 10, true);
+alarm_set(0, 1);
