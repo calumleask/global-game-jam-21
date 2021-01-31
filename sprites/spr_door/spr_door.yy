@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"06f1394f-a0fa-4049-b399-e6cc6bcf836d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Door",
-    "path": "folders/Sprites/Game/Interactable/Door.yy",
+    "name": "Interactable",
+    "path": "folders/Sprites/Game/Interactable.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_door",

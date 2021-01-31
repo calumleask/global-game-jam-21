@@ -323,6 +323,7 @@
       ],"visible":true,"depth":701,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":20,"gridY":20,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"LightBlockers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_audio_manager","path":"objects/obj_audio_manager/obj_audio_manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3760.0,"y":3000.0,"resourceVersion":"1.0","name":"inst_744B0831","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_ui_manager","path":"objects/obj_ui_manager/obj_ui_manager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3760.0,"y":2940.0,"resourceVersion":"1.0","name":"inst_478B8EA2","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":801,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":20,"gridY":20,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Managers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_lighting_init","path":"objects/obj_lighting_init/obj_lighting_init.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3760.0,"y":3060.0,"resourceVersion":"1.0","name":"inst_273D3C96","tags":[],"resourceType":"GMRInstance",},
@@ -679,6 +680,7 @@
     {"name":"inst_34FF3432","path":"rooms/School/School.yy",},
     {"name":"inst_5CEC3B94","path":"rooms/School/School.yy",},
     {"name":"inst_3231C6D5","path":"rooms/School/School.yy",},
+    {"name":"inst_478B8EA2","path":"rooms/School/School.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
