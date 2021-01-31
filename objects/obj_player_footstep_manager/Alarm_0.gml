@@ -23,4 +23,4 @@ if (keyboard_check(vk_shift))
 }
 
 audio_play_sound(sound_id, 10, false);
-alarm_set(0, 0.6 * room_speed / (walking_speed * obj_player.walking_anmiation_speed));
+alarm_set(0, 0.8 * room_speed / (walking_speed * obj_player.walking_anmiation_speed));
