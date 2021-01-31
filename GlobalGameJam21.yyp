@@ -4,6 +4,7 @@
     {"id":{"name":"obj_player_ambient_light","path":"objects/obj_player_ambient_light/obj_player_ambient_light.yy",},"order":2,},
     {"id":{"name":"obj_red_wall_light","path":"objects/obj_red_wall_light/obj_red_wall_light.yy",},"order":1,},
     {"id":{"name":"snd_footstep_5","path":"sounds/snd_footstep_5/snd_footstep_5.yy",},"order":4,},
+    {"id":{"name":"obj_rubbish","path":"objects/obj_rubbish/obj_rubbish.yy",},"order":4,},
     {"id":{"name":"cross_product","path":"scripts/cross_product/cross_product.yy",},"order":0,},
     {"id":{"name":"lighting_update_camera","path":"scripts/lighting_update_camera/lighting_update_camera.yy",},"order":3,},
     {"id":{"name":"light_draw_shadow_map","path":"scripts/light_draw_shadow_map/light_draw_shadow_map.yy",},"order":1,},
@@ -113,6 +114,8 @@
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
