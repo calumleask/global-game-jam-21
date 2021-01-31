@@ -133,6 +133,7 @@
     {"id":{"name":"light_enumerate_extensions","path":"scripts/light_enumerate_extensions/light_enumerate_extensions.yy",},"order":3,},
     {"id":{"name":"light_create_directional","path":"scripts/light_create_directional/light_create_directional.yy",},"order":7,},
     {"id":{"name":"obj_toilet_bin","path":"objects/obj_toilet_bin/obj_toilet_bin.yy",},"order":3,},
+    {"id":{"name":"fnt_bloody","path":"fonts/fnt_bloody/fnt_bloody.yy",},"order":0,},
     {"id":{"name":"obj_sink","path":"objects/obj_sink/obj_sink.yy",},"order":1,},
     {"id":{"name":"obj_light_renderer","path":"objects/obj_light_renderer/obj_light_renderer.yy",},"order":1,},
     {"id":{"name":"light_create_area","path":"scripts/light_create_area/light_create_area.yy",},"order":6,},
