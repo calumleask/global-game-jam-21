@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 9,
@@ -9,8 +9,8 @@
   "swfPrecision": 2.525,
   "bbox_left": 0,
   "bbox_right": 119,
-  "bbox_top": 0,
-  "bbox_bottom": 9,
+  "bbox_top": -5,
+  "bbox_bottom": 14,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b8b92622-ce0b-4dad-a674-1edd74771af0","path":"sprites/spr_door/spr_door.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b8b92622-ce0b-4dad-a674-1edd74771af0","path":"sprites/spr_door/spr_door.yy",},"LayerId":{"name":"06f1394f-a0fa-4049-b399-e6cc6bcf836d","path":"sprites/spr_door/spr_door.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},"resourceVersion":"1.0","name":"b8b92622-ce0b-4dad-a674-1edd74771af0","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"b8b92622-ce0b-4dad-a674-1edd74771af0","path":"sprites/spr_door_interaction/spr_door_interaction.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"b8b92622-ce0b-4dad-a674-1edd74771af0","path":"sprites/spr_door_interaction/spr_door_interaction.yy",},"LayerId":{"name":"06f1394f-a0fa-4049-b399-e6cc6bcf836d","path":"sprites/spr_door_interaction/spr_door_interaction.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_door_interaction","path":"sprites/spr_door_interaction/spr_door_interaction.yy",},"resourceVersion":"1.0","name":"b8b92622-ce0b-4dad-a674-1edd74771af0","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},
+    "spriteId": {"name":"spr_door_interaction","path":"sprites/spr_door_interaction/spr_door_interaction.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"515a3f6c-66c3-4603-8e41-fdf56893eac3","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8b92622-ce0b-4dad-a674-1edd74771af0","path":"sprites/spr_door/spr_door.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bff037f6-0d56-4a1a-9860-8074cff815ed","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b8b92622-ce0b-4dad-a674-1edd74771af0","path":"sprites/spr_door_interaction/spr_door_interaction.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": -5,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},
+    "parent": {"name":"spr_door_interaction","path":"sprites/spr_door_interaction/spr_door_interaction.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_door",
+    "name": "spr_door_interaction",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -72,7 +72,7 @@
     "path": "folders/Sprites/Game/Interactable/Door.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_door",
+  "name": "spr_door_interaction",
   "tags": [],
   "resourceType": "GMSprite",
 }

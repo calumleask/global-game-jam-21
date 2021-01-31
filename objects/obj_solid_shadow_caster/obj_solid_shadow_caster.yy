@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "spr_window",
-    "path": "sprites/spr_window/spr_window.yy",
-  },
+  "spriteId": null,
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy",
+    "name": "obj_shadow_caster",
+    "path": "objects/obj_shadow_caster/obj_shadow_caster.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -27,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Walls",
-    "path": "folders/Objects/Game/Walls.yy",
+    "name": "Base",
+    "path": "folders/Objects/Game/Base.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_window",
+  "name": "obj_solid_shadow_caster",
   "tags": [],
   "resourceType": "GMObject",
 }

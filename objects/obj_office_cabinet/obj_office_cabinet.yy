@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Office",
-    "path": "folders/Objects/Game/Environment/Common/Office.yy",
+    "path": "folders/Objects/Game/Environment/Office.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_office_cabinet",

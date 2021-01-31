@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_shadow_caster",
-    "path": "objects/obj_shadow_caster/obj_shadow_caster.yy",
+    "name": "obj_solid_shadow_caster",
+    "path": "objects/obj_solid_shadow_caster/obj_solid_shadow_caster.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

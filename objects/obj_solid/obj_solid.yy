@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Environment",
-    "path": "folders/Objects/Game/Environment.yy",
+    "name": "Base",
+    "path": "folders/Objects/Game/Base.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_solid",
