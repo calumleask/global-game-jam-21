@@ -1,11 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"obj_light_player","path":"objects/obj_light_player/obj_light_player.yy",},"order":4,},
+    {"id":{"name":"obj_player_ambient_light","path":"objects/obj_player_ambient_light/obj_player_ambient_light.yy",},"order":2,},
     {"id":{"name":"obj_red_wall_light","path":"objects/obj_red_wall_light/obj_red_wall_light.yy",},"order":1,},
     {"id":{"name":"snd_footstep_5","path":"sounds/snd_footstep_5/snd_footstep_5.yy",},"order":4,},
     {"id":{"name":"cross_product","path":"scripts/cross_product/cross_product.yy",},"order":0,},
     {"id":{"name":"lighting_update_camera","path":"scripts/lighting_update_camera/lighting_update_camera.yy",},"order":3,},
     {"id":{"name":"light_draw_shadow_map","path":"scripts/light_draw_shadow_map/light_draw_shadow_map.yy",},"order":1,},
+    {"id":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"order":2,},
     {"id":{"name":"point_in_polygon","path":"scripts/point_in_polygon/point_in_polygon.yy",},"order":6,},
     {"id":{"name":"sh_shadow_map","path":"shaders/sh_shadow_map/sh_shadow_map.yy",},"order":1,},
     {"id":{"name":"snd_footstep_4","path":"sounds/snd_footstep_4/snd_footstep_4.yy",},"order":3,},
@@ -38,7 +39,7 @@
     {"id":{"name":"obj_player_footstep_manager","path":"objects/obj_player_footstep_manager/obj_player_footstep_manager.yy",},"order":1,},
     {"id":{"name":"composite_shadow_map","path":"scripts/composite_shadow_map/composite_shadow_map.yy",},"order":4,},
     {"id":{"name":"spr_light_blocker","path":"sprites/spr_light_blocker/spr_light_blocker.yy",},"order":2,},
-    {"id":{"name":"obj_light_torch","path":"objects/obj_light_torch/obj_light_torch.yy",},"order":0,},
+    {"id":{"name":"obj_player_torch_light","path":"objects/obj_player_torch_light/obj_player_torch_light.yy",},"order":3,},
     {"id":{"name":"spr_lut_light_intensity_spot","path":"sprites/spr_lut_light_intensity_spot/spr_lut_light_intensity_spot.yy",},"order":3,},
     {"id":{"name":"spr_light_point","path":"sprites/spr_light_point/spr_light_point.yy",},"order":5,},
     {"id":{"name":"random_int","path":"scripts/random_int/random_int.yy",},"order":0,},
@@ -56,6 +57,7 @@
     {"id":{"name":"polygon_get_area","path":"scripts/polygon_get_area/polygon_get_area.yy",},"order":7,},
     {"id":{"name":"light_add_to_world","path":"scripts/light_add_to_world/light_add_to_world.yy",},"order":4,},
     {"id":{"name":"obj_lighting_init","path":"objects/obj_lighting_init/obj_lighting_init.yy",},"order":2,},
+    {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},"order":1,},
     {"id":{"name":"sh_blend_light","path":"shaders/sh_blend_light/sh_blend_light.yy",},"order":0,},
     {"id":{"name":"light_static_get_array","path":"scripts/light_static_get_array/light_static_get_array.yy",},"order":0,},
     {"id":{"name":"shadow_map_ensure_exists","path":"scripts/shadow_map_ensure_exists/shadow_map_ensure_exists.yy",},"order":9,},
@@ -147,6 +149,7 @@
     {"folderPath":"folders/Objects/Game/Environment/Common.yy","order":1,"resourceVersion":"1.0","name":"Common","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Game/Player.yy","order":5,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts/Utils.yy","order":2,"resourceVersion":"1.0","name":"Utils","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Game/Player.yy","order":4,"resourceVersion":"1.0","name":"Player","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},

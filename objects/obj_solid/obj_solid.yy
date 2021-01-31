@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "spr_desk",
-    "path": "sprites/spr_desk/spr_desk.yy",
-  },
+  "spriteId": null,
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_solid",
-    "path": "objects/obj_solid/obj_solid.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -27,11 +21,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Common",
-    "path": "folders/Objects/Game/Environment/Common.yy",
+    "name": "Environment",
+    "path": "folders/Objects/Game/Environment.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_desk",
+  "name": "obj_solid",
   "tags": [],
   "resourceType": "GMObject",
 }

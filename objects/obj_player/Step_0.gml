@@ -80,6 +80,10 @@ if (walking and not turning)
 	{
 		footsteps_manager = instance_create_depth(0, 0, 0, obj_player_footstep_manager);
 	}
+	if (image_speed = 0)
+	{
+		image_speed = 0.73 * walking_speed;
+	}
 }
 else
 {
@@ -87,6 +91,14 @@ else
 	{
 		instance_destroy(footsteps_manager);
 		footsteps_manager = pointer_null;
+	}
+	if (image_speed > 0)
+	{
+		// Only end animation if on specific frame
+		if (floor(image_index) != 1 and floor(image_index) != 4)
+		{
+			image_speed = 0;
+		}
 	}
 	speed = 0;
 }
