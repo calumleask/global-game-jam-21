@@ -98,7 +98,7 @@ else
 	if (image_speed > 0)
 	{
 		// Only end animation if on specific frame
-		if (floor(image_index) != 1 and floor(image_index) != 4)
+		if (floor(image_index) = 0 or floor(image_index) = 4)
 		{
 			image_speed = 0;
 		}
