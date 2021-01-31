@@ -107,3 +107,9 @@ else
 }
 
 walking_speed = temp_walking_speed;
+
+// 3D audio
+
+audio_listener_position(x, y, 0);
+//audio_listener_orientation(-dcos(image_angle), dsin(image_angle), 0, 0, 0, 1);
+audio_listener_orientation(0, 1, 0, 0, 0, 1);
