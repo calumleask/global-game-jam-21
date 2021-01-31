@@ -158,6 +158,7 @@
             {"instances":[
                 {"properties":[],"isDnd":false,"objectId":{"name":"obj_office_cabinet","path":"objects/obj_office_cabinet/obj_office_cabinet.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2880.0,"y":2400.0,"resourceVersion":"1.0","name":"inst_501C20F6","tags":[],"resourceType":"GMRInstance",},
                 {"properties":[],"isDnd":false,"objectId":{"name":"obj_desk","path":"objects/obj_desk/obj_desk.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2900.0,"y":2500.0,"resourceVersion":"1.0","name":"inst_16834BB9","tags":[],"resourceType":"GMRInstance",},
+                {"properties":[],"isDnd":false,"objectId":{"name":"obj_photo_frame","path":"objects/obj_photo_frame/obj_photo_frame.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":234.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2877.0,"y":2598.0,"resourceVersion":"1.0","name":"inst_2906537D","tags":[],"resourceType":"GMRInstance",},
               ],"visible":true,"depth":401,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":20,"gridY":20,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Office_Instances","tags":[],"resourceType":"GMRInstanceLayer",},
           ],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Office","tags":[],"resourceType":"GMRLayer",},
         {"instances":[
@@ -499,6 +500,7 @@
     {"name":"inst_3231C6D5","path":"rooms/School/School.yy",},
     {"name":"inst_501C20F6","path":"rooms/School/School.yy",},
     {"name":"inst_16834BB9","path":"rooms/School/School.yy",},
+    {"name":"inst_2906537D","path":"rooms/School/School.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

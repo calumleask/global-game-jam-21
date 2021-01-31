@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_photo_frame",
+    "path": "sprites/spr_photo_frame/spr_photo_frame.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -17,15 +20,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_photo_frame","path":"objects/obj_photo_frame/obj_photo_frame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Interactable",
-    "path": "folders/Objects/Game/Interactable.yy",
+    "name": "Office",
+    "path": "folders/Objects/Game/Interactable/Office.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rubbish",
+  "name": "obj_photo_frame",
   "tags": [],
   "resourceType": "GMObject",
 }
