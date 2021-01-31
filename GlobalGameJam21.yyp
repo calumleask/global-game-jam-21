@@ -87,6 +87,7 @@
     {"id":{"name":"snd_ambience_2","path":"sounds/snd_ambience_2/snd_ambience_2.yy",},"order":1,},
     {"id":{"name":"snd_footstep_7","path":"sounds/snd_footstep_7/snd_footstep_7.yy",},"order":6,},
     {"id":{"name":"light_create","path":"scripts/light_create/light_create.yy",},"order":5,},
+    {"id":{"name":"spr_gym_floor_lines","path":"sprites/spr_gym_floor_lines/spr_gym_floor_lines.yy",},"order":0,},
     {"id":{"name":"snd_footstep_8","path":"sounds/snd_footstep_8/snd_footstep_8.yy",},"order":7,},
     {"id":{"name":"ext_light_attenuation_apply","path":"scripts/ext_light_attenuation_apply/ext_light_attenuation_apply.yy",},"order":0,},
     {"id":{"name":"obj_collision_light_switch","path":"objects/obj_collision_light_switch/obj_collision_light_switch.yy",},"order":4,},
@@ -176,6 +177,7 @@
     {"folderPath":"folders/Objects/Game/Environment/Common/Office.yy","order":3,"resourceVersion":"1.0","name":"Office","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Game/Interactable.yy","order":6,"resourceVersion":"1.0","name":"Interactable","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Game/Interactable/Office.yy","order":0,"resourceVersion":"1.0","name":"Office","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/Game/Environment/Gym.yy","order":3,"resourceVersion":"1.0","name":"Gym","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
