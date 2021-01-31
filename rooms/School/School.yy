@@ -20,12 +20,10 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_light_blocker","path":"objects/obj_light_blocker/obj_light_blocker.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":39.0,"scaleY":11.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1200.0,"y":820.0,"resourceVersion":"1.0","name":"inst_6799E5F","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":20,"gridY":20,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Shadow_Map","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_player_torch_light","path":"objects/obj_player_torch_light/obj_player_torch_light.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3760.0,"y":2900.0,"resourceVersion":"1.0","name":"inst_66D8F35A","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_red_wall_light","path":"objects/obj_red_wall_light/obj_red_wall_light.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2670.0,"y":1831.0,"resourceVersion":"1.0","name":"inst_58697114","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"Light_Direction","path":"objects/obj_light/obj_light.yy",},"objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"value":"22.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_moon_light","path":"objects/obj_moon_light/obj_moon_light.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1740.0,"y":3280.0,"resourceVersion":"1.0","name":"inst_7169CC11","tags":[],"resourceType":"GMRInstance",},
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_player_ambient_light","path":"objects/obj_player_ambient_light/obj_player_ambient_light.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3760.0,"y":2840.0,"resourceVersion":"1.0","name":"inst_61815915","tags":[],"resourceType":"GMRInstance",},
         {"properties":[
             {"propertyId":{"name":"Light_Angle","path":"objects/obj_light/obj_light.yy",},"objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"value":"345","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"Light_Intensity","path":"objects/obj_light/obj_light.yy",},"objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"value":"0.75","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
@@ -34,6 +32,7 @@
             {"propertyId":{"name":"Light_Direction","path":"objects/obj_light/obj_light.yy",},"objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"value":"190","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
             {"propertyId":{"name":"Light_Intensity","path":"objects/obj_light/obj_light.yy",},"objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"value":"0.5","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_moon_light","path":"objects/obj_moon_light/obj_moon_light.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":3020.0,"y":640.0,"resourceVersion":"1.0","name":"inst_40A99CFF","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_office_light","path":"objects/obj_office_light/obj_office_light.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2840.0,"y":2520.0,"resourceVersion":"1.0","name":"inst_5D38EF83","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":20,"gridY":20,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Lights","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":28.1,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2438.0,"y":2380.0,"resourceVersion":"1.0","name":"inst_B99762","tags":[],"resourceType":"GMRInstance",},
@@ -322,7 +321,6 @@
   "instanceCreationOrder": [
     {"name":"inst_273D3C96","path":"rooms/School/School.yy",},
     {"name":"inst_5AD5CAA3","path":"rooms/School/School.yy",},
-    {"name":"inst_66D8F35A","path":"rooms/School/School.yy",},
     {"name":"inst_58697114","path":"rooms/School/School.yy",},
     {"name":"inst_7169CC11","path":"rooms/School/School.yy",},
     {"name":"inst_744B0831","path":"rooms/School/School.yy",},
@@ -408,7 +406,6 @@
     {"name":"inst_63A3310D","path":"rooms/School/School.yy",},
     {"name":"inst_1E3F8914","path":"rooms/School/School.yy",},
     {"name":"inst_5036D381","path":"rooms/School/School.yy",},
-    {"name":"inst_61815915","path":"rooms/School/School.yy",},
     {"name":"inst_222772F9","path":"rooms/School/School.yy",},
     {"name":"inst_40A99CFF","path":"rooms/School/School.yy",},
     {"name":"inst_38CA3E27","path":"rooms/School/School.yy",},
@@ -416,6 +413,7 @@
     {"name":"inst_44628279","path":"rooms/School/School.yy",},
     {"name":"inst_72FD0853","path":"rooms/School/School.yy",},
     {"name":"inst_6799E5F","path":"rooms/School/School.yy",},
+    {"name":"inst_5D38EF83","path":"rooms/School/School.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
