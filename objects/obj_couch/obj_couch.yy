@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Foyer",
-    "path": "folders/Objects/Game/Environment/Foyer.yy",
+    "name": "Corridor",
+    "path": "folders/Objects/Game/Environment/Corridor.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_couch",

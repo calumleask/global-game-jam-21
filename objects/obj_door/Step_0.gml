@@ -22,9 +22,10 @@ if (interaction_hint_showing)
 		interaction_hint_showing = false;
 		open = true;
 		
+		// Turn lights on
 		with (obj_light)
 		{
-			if (layer_get_name(layer) = other.light_layer_on_open)
+			if (array_contains(other.on_open_lights_on_with_tag, tag))
 			{
 				on = true;
 			}

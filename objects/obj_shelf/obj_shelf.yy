@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Basement",
-    "path": "folders/Objects/Game/Environment/Basement.yy",
+    "name": "Common",
+    "path": "folders/Objects/Game/Environment/Common.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_shelf",

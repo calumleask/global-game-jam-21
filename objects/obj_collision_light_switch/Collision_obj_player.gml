@@ -2,7 +2,7 @@
 
 with (obj_light)
 {
-	if (array_contains(other.light_names, tag))
+	if (array_contains(other.light_tags, tag))
 	{
 		if (other.type = "ON" and not on)
 		{
