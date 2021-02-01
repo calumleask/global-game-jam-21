@@ -10,8 +10,8 @@ if (walking and other.solid)
 	}
 }
 
-if (footsteps_manager != pointer_null)
+if (footsteps_manager != noone)
 {
 	instance_destroy(footsteps_manager);
-	footsteps_manager = pointer_null;
+	footsteps_manager = noone;
 }

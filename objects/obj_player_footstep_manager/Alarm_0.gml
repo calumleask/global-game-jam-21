@@ -16,11 +16,13 @@ sound_id = choose(
 	snd_footstep_8
 );
 
-var walking_speed = obj_player.walking_speed;
+
+var seconds_passed = delta_time / 1000000;
+var walking_speed_this_frame = obj_player.walking_speed_pixels_per_second * seconds_passed;
 if (keyboard_check(vk_shift))
 {
-	walking_speed =	6;
+	walking_speed_this_frame *=	3;
 }
 
 audio_play_sound(sound_id, 10, false);
-alarm_set(0, 0.8 * room_speed / (walking_speed * obj_player.walking_anmiation_speed));
+alarm_set(0, 0.8 * room_speed / (walking_speed_this_frame * obj_player.walking_anmiation_speed));

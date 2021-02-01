@@ -1,9 +1,11 @@
 /// @description Movement
 
-var temp_walking_speed = walking_speed;
+var seconds_passed = delta_time / 1000000;
+var walking_speed_this_frame = walking_speed_pixels_per_second * seconds_passed;
+
 if (keyboard_check(vk_shift))
 {
-	walking_speed =	6;
+	walking_speed_this_frame *=	3;
 }
 
 // Handle movement keys down
@@ -59,8 +61,16 @@ if (image_angle != direction)
 		rotation_todo -= 360;
 	}
 	turning = true;
-	var rotation_lerp_value = 0.1 + (0.9 * max(0, (45 - abs(rotation_todo))) / 45);
-	image_angle = lerp(image_angle, image_angle + rotation_todo, rotation_lerp_value);
+	
+	var turning_speed_this_frame = turning_speed_degrees_per_second * seconds_passed;
+	if (rotation_todo > 0)
+	{
+		image_angle = min(image_angle + turning_speed_this_frame, image_angle + rotation_todo);
+	}
+	else if (rotation_todo < 0)
+	{
+		image_angle = max(image_angle - turning_speed_this_frame, image_angle + rotation_todo);
+	}
 	
 	// restrict image_angle
 	if (round(image_angle) >= 360)
@@ -81,19 +91,19 @@ if (image_angle != direction)
 // Movement
 if (walking and not turning)
 {
-	speed = walking_speed;
-	if (footsteps_manager = pointer_null)
+	speed = walking_speed_this_frame;
+	if (footsteps_manager = noone)
 	{
 		footsteps_manager = instance_create_depth(0, 0, 0, obj_player_footstep_manager);
 	}
-	image_speed = walking_anmiation_speed * walking_speed;
+	image_speed = walking_anmiation_speed * walking_speed_this_frame;
 }
 else
 {
-	if (footsteps_manager != pointer_null)
+	if (footsteps_manager != noone)
 	{
 		instance_destroy(footsteps_manager);
-		footsteps_manager = pointer_null;
+		footsteps_manager = noone;
 	}
 	if (image_speed > 0)
 	{
@@ -106,10 +116,6 @@ else
 	speed = 0;
 }
 
-walking_speed = temp_walking_speed;
-
 // 3D audio
 
 audio_listener_position(x, y, 0);
-//audio_listener_orientation(-dcos(image_angle), dsin(image_angle), 0, 0, 0, 1);
-audio_listener_orientation(0, 1, 0, 0, 0, 1);
