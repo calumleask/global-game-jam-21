@@ -91,12 +91,29 @@ if (image_angle != direction)
 // Movement
 if (walking and not turning)
 {
-	speed = walking_speed_this_frame;
-	if (footsteps_manager = noone)
+	var moved = _move_with_slipping(walking_speed_this_frame, direction, 89);
+	if (moved)
 	{
-		footsteps_manager = instance_create_depth(0, 0, 0, obj_player_footstep_manager);
+		image_speed = walking_anmiation_speed * walking_speed_this_frame;
+		
+		if (footsteps_manager = noone)
+		{
+			footsteps_manager = instance_create_depth(0, 0, 0, obj_player_footstep_manager);
+		}
 	}
-	image_speed = walking_anmiation_speed * walking_speed_this_frame;
+	else
+	{
+		if (floor(image_index) = 0 or floor(image_index) = 4)
+		{
+			image_speed = 0;
+		}
+
+		if (footsteps_manager != noone)
+		{
+			instance_destroy(footsteps_manager);
+			footsteps_manager = noone;
+		}
+	}
 }
 else
 {
@@ -113,7 +130,6 @@ else
 			image_speed = 0;
 		}
 	}
-	speed = 0;
 }
 
 // 3D audio
