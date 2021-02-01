@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "spr_puddle_small",
-    "path": "sprites/spr_puddle_small/spr_puddle_small.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
@@ -21,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_puddle_small","path":"objects/obj_puddle_small/obj_puddle_small.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_water_dripping","path":"objects/obj_water_dripping/obj_water_dripping.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Common",
-    "path": "folders/Objects/Game/Environment/Common.yy",
+    "name": "Audio_Emitters",
+    "path": "folders/Objects/Game/Audio_Emitters.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_puddle_small",
+  "name": "obj_water_dripping",
   "tags": [],
   "resourceType": "GMObject",
 }

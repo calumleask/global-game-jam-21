@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e4a213e5-9852-4640-9a66-60301ef49f85","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Toilet",
-    "path": "folders/Sprites/Game/Environment/Toilet.yy",
+    "name": "Toilets",
+    "path": "folders/Sprites/Game/Environment/Toilets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_sink",

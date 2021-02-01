@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"191f9c8f-9ed7-4e71-8f50-5962a2c670ab","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Toilet",
-    "path": "folders/Sprites/Game/Environment/Toilet.yy",
+    "name": "Toilets",
+    "path": "folders/Sprites/Game/Environment/Toilets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_toilet_bin",

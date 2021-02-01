@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Toilet",
-    "path": "folders/Objects/Game/Environment/Toilet.yy",
+    "name": "Toilets",
+    "path": "folders/Objects/Game/Environment/Toilets.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_hand_drier",

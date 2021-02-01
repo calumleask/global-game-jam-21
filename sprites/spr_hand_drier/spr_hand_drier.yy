@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"33ecd572-8328-4c0b-b704-c637aded1bac","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Toilet",
-    "path": "folders/Sprites/Game/Environment/Toilet.yy",
+    "name": "Toilets",
+    "path": "folders/Sprites/Game/Environment/Toilets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_hand_drier",
