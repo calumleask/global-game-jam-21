@@ -1,8 +1,9 @@
 /// @description
 
+draw_set_font(fnt_bloody);
+
 if (space_prompt_alpha > 0)
 {
-	draw_set_font(fnt_bloody);
 	draw_set_color(ui_text_color);
 	draw_set_alpha(space_prompt_alpha);
 	

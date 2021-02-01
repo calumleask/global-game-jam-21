@@ -55,6 +55,7 @@
     {"id":{"name":"obj_puddle_small","path":"objects/obj_puddle_small/obj_puddle_small.yy",},"order":1,},
     {"id":{"name":"hide_space_prompt","path":"scripts/hide_space_prompt/hide_space_prompt.yy",},"order":1,},
     {"id":{"name":"lighting_pre_composite","path":"scripts/lighting_pre_composite/lighting_pre_composite.yy",},"order":4,},
+    {"id":{"name":"obj_debug_ui","path":"objects/obj_debug_ui/obj_debug_ui.yy",},"order":2,},
     {"id":{"name":"tri_direction","path":"scripts/tri_direction/tri_direction.yy",},"order":10,},
     {"id":{"name":"obj_audio_manager","path":"objects/obj_audio_manager/obj_audio_manager.yy",},"order":0,},
     {"id":{"name":"shadow_casters_exist","path":"scripts/shadow_casters_exist/shadow_casters_exist.yy",},"order":8,},

@@ -21,6 +21,15 @@ if (interaction_hint_showing)
 		hide_space_prompt(false);
 		interaction_hint_showing = false;
 		open = true;
-		instance_destroy(id); // animat opening
+		
+		with (obj_light)
+		{
+			if (layer_get_name(layer) = other.light_layer_on_open)
+			{
+				on = true;
+			}
+		}
+		
+		instance_destroy(id); // animate opening
 	}
 }
