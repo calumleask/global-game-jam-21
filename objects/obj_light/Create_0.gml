@@ -36,6 +36,15 @@ if(LUT_Intensity != noone) {
 	light[| eLight.LutIntensity] = sprite_get_texture(LUT_Intensity, 0);
 }
 
-// Add the light to the world
-light_add_to_world(light);
-in_world = true;
+in_world = false;
+intensity_multiplier = 0;
+fade_out = true;
+fade_in = true;
+
+if (not disabled and on)
+{
+	// Add the light to the world
+	light_add_to_world(light);
+	in_world = true;
+	intensity_multiplier = 1;
+}

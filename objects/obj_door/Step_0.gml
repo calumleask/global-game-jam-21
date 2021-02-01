@@ -25,9 +25,11 @@ if (interaction_hint_showing)
 		// Turn lights on
 		with (obj_light)
 		{
-			if (array_contains(other.on_open_lights_on_with_tag, tag))
+			if (array_contains(other.on_open_enable_lights, tag))
 			{
+				disabled = false;
 				on = true;
+				fade_in = false;
 			}
 		}
 		
