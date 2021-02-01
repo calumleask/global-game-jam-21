@@ -1,14 +1,16 @@
 /// @description Switch light off / on
 
-var light_instance = instance_position(light_x, light_y, obj_light);
-if (light_instance != noone)
+with (obj_light)
 {
-	if (type = "ON" and not light_instance.on)
+	if (array_contains(other.light_names, tag))
 	{
-		light_instance.on = true;
-	}
-	else if (type = "OFF" and light_instance.on)
-	{
-		light_instance.on = false;
+		if (other.type = "ON" and not on)
+		{
+			on = true;
+		}
+		else if (other.type = "OFF" and on)
+		{
+			on = false;
+		}
 	}
 }
