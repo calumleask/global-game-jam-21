@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1e672a78-1e82-454b-9a7c-8ef3a99d0e24","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Basement",
-    "path": "folders/Sprites/Game/Environment/Basement.yy",
+    "name": "Common",
+    "path": "folders/Sprites/Game/Environment/Common.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_footprints",
