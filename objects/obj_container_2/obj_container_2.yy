@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_photo_frame",
-    "path": "sprites/spr_photo_frame/spr_photo_frame.yy",
+    "name": "spr_container_2",
+    "path": "sprites/spr_container_2/spr_container_2.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_solid",
+    "path": "objects/obj_solid/obj_solid.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,17 +23,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_photo_frame","path":"objects/obj_photo_frame/obj_photo_frame.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Interactable",
-    "path": "folders/Objects/Game/Interactable.yy",
+    "name": "Storage",
+    "path": "folders/Objects/Game/Environment/Storage.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_photo_frame",
+  "name": "obj_container_2",
   "tags": [],
   "resourceType": "GMObject",
 }
