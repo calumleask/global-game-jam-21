@@ -1,4 +1,3 @@
-/// @description Remove lights
+/// @description Turn torch off
 
-instance_destroy(torch_light);
-instance_destroy(ambient_light);
+player_turn_off_flashlight(id);

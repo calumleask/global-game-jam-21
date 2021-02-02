@@ -94,18 +94,23 @@ if (walking and not turning)
 	var moved = _move_with_slipping(walking_speed_this_frame, direction, 89);
 	if (moved)
 	{
+		sprite_index = spr_player_walk;
 		image_speed = walking_anmiation_speed * walking_speed_this_frame;
 		
 		if (footsteps_manager = noone)
 		{
 			footsteps_manager = instance_create_depth(0, 0, 0, obj_player_footstep_manager);
 		}
+		
+		// 3D audio
+		audio_listener_position(x, y, 0);
 	}
 	else
 	{
-		if (floor(image_index) = 0 or floor(image_index) = 4)
+		if (floor(image_index) = 1 or floor(image_index) = 5)
 		{
 			image_speed = 0;
+			sprite_index = spr_player;
 		}
 
 		if (footsteps_manager != noone)
@@ -125,13 +130,10 @@ else
 	if (image_speed > 0)
 	{
 		// Only end animation if on specific frame
-		if (floor(image_index) = 0 or floor(image_index) = 4)
+		if (floor(image_index) != 2 and floor(image_index) != 6)
 		{
 			image_speed = 0;
+			sprite_index = spr_player;
 		}
 	}
 }
-
-// 3D audio
-
-audio_listener_position(x, y, 0);

@@ -53,3 +53,15 @@ function _move_with_slipping(_spd, _dir, _swp_ang)
 	}
 	return false;
 }
+
+/// @func _move_obj_by(obj, x, y)
+/// @param {object} obj
+/// @param {real} x
+/// @param {real} y
+
+function _move_obj_by(_obj, _x, _y)
+{
+
+	_obj.x += _x;
+	_obj.y += _y;
+}

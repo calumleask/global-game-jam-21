@@ -28,8 +28,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Managers",
-    "path": "folders/Objects/Game/Managers.yy",
+    "name": "Controllers",
+    "path": "folders/Objects/Game/Controllers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_debug_controller",
