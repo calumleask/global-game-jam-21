@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_chalkboard",
+    "path": "sprites/spr_chalkboard/spr_chalkboard.yy",
+  },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_solid",
+    "path": "objects/obj_solid/obj_solid.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Base",
-    "path": "folders/Objects/Base.yy",
+    "name": "Classrooms",
+    "path": "folders/Objects/Game/Environment/Classrooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_solid",
+  "name": "obj_chalkboard",
   "tags": [],
   "resourceType": "GMObject",
 }

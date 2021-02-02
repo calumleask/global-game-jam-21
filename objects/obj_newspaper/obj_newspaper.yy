@@ -1,6 +1,9 @@
 {
-  "spriteId": null,
-  "solid": true,
+  "spriteId": {
+    "name": "spr_newspaper",
+    "path": "sprites/spr_newspaper/spr_newspaper.yy",
+  },
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -21,11 +24,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Base",
-    "path": "folders/Objects/Base.yy",
+    "name": "Interactable",
+    "path": "folders/Objects/Game/Interactable.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_solid",
+  "name": "obj_newspaper",
   "tags": [],
   "resourceType": "GMObject",
 }

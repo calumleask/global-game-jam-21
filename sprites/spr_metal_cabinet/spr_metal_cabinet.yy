@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 0,
@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 39,
+  "bbox_right": 99,
   "bbox_top": 0,
-  "bbox_bottom": 29,
+  "bbox_bottom": 59,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 40,
-  "height": 30,
+  "width": 100,
+  "height": 66,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"b3962d64-8641-468c-b58f-5fd546fab7bc","path":"sprites/spr_book/spr_book.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"b3962d64-8641-468c-b58f-5fd546fab7bc","path":"sprites/spr_book/spr_book.yy",},"LayerId":{"name":"b530b51f-feac-4a6f-8773-dff6364ca0e4","path":"sprites/spr_book/spr_book.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_book","path":"sprites/spr_book/spr_book.yy",},"resourceVersion":"1.0","name":"b3962d64-8641-468c-b58f-5fd546fab7bc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"9574e085-073f-4ad9-aa20-6787bbbc3172","path":"sprites/spr_metal_cabinet/spr_metal_cabinet.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"9574e085-073f-4ad9-aa20-6787bbbc3172","path":"sprites/spr_metal_cabinet/spr_metal_cabinet.yy",},"LayerId":{"name":"ea2c6062-1175-40cf-b3e6-d306532668fa","path":"sprites/spr_metal_cabinet/spr_metal_cabinet.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_metal_cabinet","path":"sprites/spr_metal_cabinet/spr_metal_cabinet.yy",},"resourceVersion":"1.0","name":"9574e085-073f-4ad9-aa20-6787bbbc3172","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_book","path":"sprites/spr_book/spr_book.yy",},
+    "spriteId": {"name":"spr_metal_cabinet","path":"sprites/spr_metal_cabinet/spr_metal_cabinet.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"469631e5-a1fd-4774-b046-8614f19e162a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"b3962d64-8641-468c-b58f-5fd546fab7bc","path":"sprites/spr_book/spr_book.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"767e36d6-72fb-4f3b-99b8-53edfee9dca2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"9574e085-073f-4ad9-aa20-6787bbbc3172","path":"sprites/spr_metal_cabinet/spr_metal_cabinet.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,21 +58,21 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_book","path":"sprites/spr_book/spr_book.yy",},
+    "parent": {"name":"spr_metal_cabinet","path":"sprites/spr_metal_cabinet/spr_metal_cabinet.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_book",
+    "name": "spr_metal_cabinet",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"b530b51f-feac-4a6f-8773-dff6364ca0e4","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ea2c6062-1175-40cf-b3e6-d306532668fa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Common",
     "path": "folders/Sprites/Game/Environment/Common.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_book",
+  "name": "spr_metal_cabinet",
   "tags": [],
   "resourceType": "GMSprite",
 }

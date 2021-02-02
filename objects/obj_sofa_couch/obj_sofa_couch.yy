@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_sofa_couch",
+    "path": "sprites/spr_sofa_couch/spr_sofa_couch.yy",
+  },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_solid",
+    "path": "objects/obj_solid/obj_solid.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Base",
-    "path": "folders/Objects/Base.yy",
+    "name": "Corridor",
+    "path": "folders/Objects/Game/Environment/Corridor.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_solid",
+  "name": "obj_sofa_couch",
   "tags": [],
   "resourceType": "GMObject",
 }

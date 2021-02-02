@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Base",
-    "path": "folders/Objects/Game/Base.yy",
+    "path": "folders/Objects/Base.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_solid_shadow_caster",

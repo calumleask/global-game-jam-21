@@ -1,10 +1,16 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_bin_small",
+    "path": "sprites/spr_bin_small/spr_bin_small.yy",
+  },
   "solid": true,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_solid",
+    "path": "objects/obj_solid/obj_solid.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Base",
-    "path": "folders/Objects/Base.yy",
+    "name": "Common",
+    "path": "folders/Objects/Game/Environment/Common.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_solid",
+  "name": "obj_bin_small",
   "tags": [],
   "resourceType": "GMObject",
 }
