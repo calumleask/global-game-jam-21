@@ -36,9 +36,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_1982F49D","path":"rooms/Title_Screen/Title_Screen.yy",},
-    {"name":"inst_18C0A3DD","path":"rooms/Title_Screen/Title_Screen.yy",},
-    {"name":"inst_634E1BE1","path":"rooms/Title_Screen/Title_Screen.yy",},
+    {"name":"inst_1982F49D","path":"rooms/rm_title/rm_title.yy",},
+    {"name":"inst_18C0A3DD","path":"rooms/rm_title/rm_title.yy",},
+    {"name":"inst_634E1BE1","path":"rooms/rm_title/rm_title.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -66,7 +66,7 @@
     "path": "folders/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Title_Screen",
+  "name": "rm_title",
   "tags": [],
   "resourceType": "GMRoom",
 }

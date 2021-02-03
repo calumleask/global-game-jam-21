@@ -1,15 +1,37 @@
 
-function player_turn_on_flashlight() {
-	obj_player.torch_light = instance_create_depth(0, 0, 0, obj_player_torch_light);
-	obj_player.ambient_light = instance_create_depth(0, 0, 0, obj_player_ambient_light);
+function _player_toggle_flashlight()
+{
+	flashlight_on = !flashlight_on;
+	if (flashlight_on)
+	{
+		instance_create_depth(0, 0, 0, obj_player_flashlight_ambient);
+		instance_create_depth(0, 0, 0, obj_player_flashlight_spot);
+	}
+	else
+	{
+		instance_destroy(obj_player_flashlight_ambient);
+		instance_destroy(obj_player_flashlight_spot);
+	}
 }
 
-function player_turn_off_flashlight(player) {
-	if (obj_player.torch_light != noone)
+function _player_flashlight_off()
+{
+	with (obj_player)
 	{
-		instance_destroy(obj_player.torch_light);
-		instance_destroy(obj_player.ambient_light);
-		obj_player.torch_light = noone;
-		obj_player.ambient_light = noone;
+		if (flashlight_on)
+		{
+			_player_toggle_flashlight();
+		}
+	}
+}
+
+function _player_flashlight_on()
+{
+	with (obj_player)
+	{
+		if (!flashlight_on)
+		{
+			_player_toggle_flashlight();
+		}
 	}
 }

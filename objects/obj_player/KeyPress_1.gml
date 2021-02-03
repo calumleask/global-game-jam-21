@@ -1,5 +1,15 @@
 /// @description Add movement keys to list
 
+if (!input_enabled)
+{
+	return;
+}
+
+//if (keyboard_check_pressed(ord("E")))
+//{
+//	_player_toggle_flashlight();
+//}
+
 if (keyboard_check_pressed(ord("W")))
 {
 	ds_list_add(direction_keys_down, "W");

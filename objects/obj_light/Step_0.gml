@@ -18,7 +18,6 @@ else
 			var seconds_passed = delta_time / 1000000;
 			var fade_amount_this_frame = 1 * seconds_passed;
 			intensity_multiplier = clamp(intensity_multiplier, 0, intensity_multiplier - fade_amount_this_frame);
-			show_debug_message(intensity_multiplier);
 			light[| eLight.Intensity] = Light_Intensity * intensity_multiplier;
 		}
 		else
@@ -49,7 +48,6 @@ else
 		var seconds_passed = delta_time / 1000000;
 		var fade_amount_this_frame = 1 * seconds_passed;
 		intensity_multiplier = clamp(intensity_multiplier, intensity_multiplier + fade_amount_this_frame, 1);
-		show_debug_message(intensity_multiplier);
 		light[| eLight.Intensity] = Light_Intensity * intensity_multiplier;
 	}
 }

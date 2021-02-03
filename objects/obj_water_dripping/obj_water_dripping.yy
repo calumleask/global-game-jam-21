@@ -24,7 +24,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Audio_Emitters",
-    "path": "folders/Objects/Game/Audio_Emitters.yy",
+    "path": "folders/Objects/Game/Audio/Audio_Emitters.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_water_dripping",

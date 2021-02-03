@@ -14,5 +14,11 @@ function _start_sequence(_x, _y, _sequence_name)
 	}
 	
 	layer_sequence_play(_sequence);
+	
+	with (obj_menu_controller)
+	{
+		can_open_menu = false;
+	}
+	
 	return _sequence;
 }

@@ -1,5 +1,5 @@
 
 function play_on_click()
 {
-	room_goto_next()
+	room_goto(asset_get_index("rm_level"));
 }

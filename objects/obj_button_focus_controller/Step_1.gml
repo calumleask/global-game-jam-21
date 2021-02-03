@@ -2,7 +2,6 @@
 
 if (instance_number(obj_button) == 0)
 {
-	show_debug_message("HIII")
 	instance_destroy();
 }
 

@@ -1,7 +1,6 @@
 /// @description Create UI
 
 instance_deactivate_all(true);
-instance_activate_object(obj_button_focus_controller);
 
 var _button_height = 40;
 
@@ -19,9 +18,12 @@ function continue_on_click()
 
 function quit_on_click()
 {
-	room_goto_previous();
+	instance_activate_all();
+	room_goto(asset_get_index("rm_title"));
 }
 
 _create_button(_view_port_hwidth, _view_port_hheight - _button_height, 120, _button_height, "Continue", 0, continue_on_click);
 
 _create_button(_view_port_hwidth, _view_port_hheight + _button_height, 60, _button_height, "Quit", 1, quit_on_click);
+
+instance_activate_object(obj_button_focus_controller);

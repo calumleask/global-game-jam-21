@@ -3,7 +3,22 @@
 var _hover = button_get_hover();
 var _click = _hover and mouse_check_button_pressed(mb_left);
 
-hover = lerp (hover, _hover, 0.1);
+hover = _hover and active ? 1 : lerp (hover, _hover, 0.1);
+
+if (_hover)
+{
+	with (obj_button_focus_controller)
+	{
+		if (active_index > -1)
+		{
+			active_index = -1;
+			with (obj_button)
+			{
+				active = false;
+			}
+		}
+	}
+}
 
 if (_click and on_click >= 0)
 {
