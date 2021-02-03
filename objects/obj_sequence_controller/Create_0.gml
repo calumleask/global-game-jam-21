@@ -1,3 +1,3 @@
 /// @description Init
 
-menu_open = false;
+current_sequence = -1;

@@ -9,3 +9,7 @@ if (_click and on_click >= 0)
 {
 	script_execute(on_click);
 }
+else if (active and keyboard_check_pressed(vk_enter) and on_click >= 0)
+{
+	script_execute(on_click);
+}

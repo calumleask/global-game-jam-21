@@ -1,6 +1,6 @@
 /// @description
 
-if (keyboard_check_pressed((ord("M"))))
+if (keyboard_check_pressed((ord("M"))) and obj_sequence_controller.current_sequence == -1)
 {
 	menu_open = !menu_open;
 	

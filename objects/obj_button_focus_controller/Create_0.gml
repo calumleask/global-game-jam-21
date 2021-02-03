@@ -1,3 +1,3 @@
 /// @description Init
 
-menu_open = false;
+active_index = -1;
