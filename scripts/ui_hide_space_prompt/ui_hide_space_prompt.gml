@@ -1,5 +1,5 @@
 
-function hide_space_prompt(fade_out)
+function _ui_hide_space_prompt(fade_out)
 {
 	if (instance_exists(obj_ui_controller))
 	{

@@ -29,8 +29,8 @@
   ],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Game/Controllers.yy",
+    "name": "UI_Controller",
+    "path": "folders/Objects/Game/Controllers/UI_Controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_ui_controller",

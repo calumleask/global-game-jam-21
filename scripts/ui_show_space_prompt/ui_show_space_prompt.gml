@@ -1,5 +1,5 @@
 
-function show_space_prompt(text)
+function _ui_show_space_prompt(text)
 {
 	if (instance_exists(obj_ui_controller))
 	{
