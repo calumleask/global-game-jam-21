@@ -657,7 +657,7 @@
       ],"visible":true,"depth":601,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":20,"gridY":20,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Light_Blockers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[
         {"properties":[
-            {"propertyId":{"name":"on_collision","path":"objects/obj_one_time_trigger/obj_one_time_trigger.yy",},"objectId":{"name":"obj_one_time_trigger","path":"objects/obj_one_time_trigger/obj_one_time_trigger.yy",},"value":"_player_flashlight_on","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+            {"propertyId":{"name":"on_collision","path":"objects/obj_one_time_trigger/obj_one_time_trigger.yy",},"objectId":{"name":"obj_one_time_trigger","path":"objects/obj_one_time_trigger/obj_one_time_trigger.yy",},"value":"_story_turn_on_flashlight","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_one_time_trigger","path":"objects/obj_one_time_trigger/obj_one_time_trigger.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":0.5,"scaleY":4.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2590.0,"y":2490.0,"resourceVersion":"1.0","name":"inst_26FA3E99","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":701,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":10,"gridY":10,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"One_Time_Triggers","tags":[],"resourceType":"GMRInstanceLayer",},
     {"instances":[

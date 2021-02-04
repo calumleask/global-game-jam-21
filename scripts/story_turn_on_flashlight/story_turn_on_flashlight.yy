@@ -3,10 +3,10 @@
   "isCompatibility": false,
   "parent": {
     "name": "Dialogue",
-    "path": "folders/Scripts/Dialogue.yy",
+    "path": "folders/Scripts/Game/Dialogue.yy",
   },
   "resourceVersion": "1.0",
-  "name": "start_dialogue",
+  "name": "story_turn_on_flashlight",
   "tags": [],
   "resourceType": "GMScript",
 }

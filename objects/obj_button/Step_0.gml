@@ -3,7 +3,7 @@
 var _hover = button_get_hover();
 var _click = _hover and mouse_check_button_pressed(mb_left);
 
-hover = _hover and active ? 1 : lerp (hover, _hover, 0.1);
+hover = _hover and active ? 1 : lerp(hover, _hover, 0.1);
 
 if (_hover)
 {
@@ -20,11 +20,14 @@ if (_hover)
 	}
 }
 
-if (_click and on_click >= 0)
+if (on_click >= 0)
 {
-	script_execute(on_click);
-}
-else if (active and keyboard_check_pressed(vk_enter) and on_click >= 0)
-{
-	script_execute(on_click);
+	if (_click)
+	{
+		script_execute(on_click);
+	}
+	else if ((active or _hover) and (keyboard_check_pressed(vk_enter) or keyboard_check_pressed(vk_space)))
+	{
+		script_execute(on_click);
+	}
 }

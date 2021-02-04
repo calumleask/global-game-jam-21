@@ -1,6 +1,6 @@
 /// @description
 
-if (keyboard_check_pressed((ord("M"))) and can_open_menu)
+if ((keyboard_check_pressed((ord("M"))) or keyboard_check_pressed(vk_escape)) and can_open_menu)
 {	
 	menu_open = !menu_open;
 	

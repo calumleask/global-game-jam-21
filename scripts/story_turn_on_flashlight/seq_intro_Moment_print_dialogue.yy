@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Dialogue",
-    "path": "folders/Scripts/Game/Dialogue.yy",
+    "name": "Intro",
+    "path": "folders/Sequences/Intro.yy",
   },
   "resourceVersion": "1.0",
-  "name": "start_dialogue",
+  "name": "seq_intro_Moment_print_dialogue",
   "tags": [],
   "resourceType": "GMScript",
 }

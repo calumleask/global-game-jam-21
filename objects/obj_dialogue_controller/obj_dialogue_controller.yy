@@ -20,12 +20,13 @@
   "eventList": [
     {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"parent":{"name":"obj_dialogue_controller","path":"objects/obj_dialogue_controller/obj_dialogue_controller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_dialogue_controller","path":"objects/obj_dialogue_controller/obj_dialogue_controller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_dialogue_controller","path":"objects/obj_dialogue_controller/obj_dialogue_controller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Game/Controllers.yy",
+    "name": "Dialogue_Controller",
+    "path": "folders/Objects/Game/Controllers/Dialogue_Controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_dialogue_controller",
