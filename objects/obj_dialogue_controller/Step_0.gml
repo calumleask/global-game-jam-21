@@ -22,7 +22,7 @@ if (show_dialogue and new_line_fade < 1)
 {
 	var _seconds_passed = delta_time / 1000000;
 	var _fade_amount_this_frame = _speed_up * _seconds_passed / fade_in_time;
-	new_line_fade = clamp(new_line_fade, new_line_fade + _fade_amount_this_frame, 1);
+	new_line_fade = clamp(new_line_fade + _fade_amount_this_frame, 0, 1);
 }
 // Wait the duration before showing the next line.
 else if (next_line_wait < 1)
@@ -49,7 +49,7 @@ else if (next_line_wait < 1)
 	var _duration = ds_list_find_value(dialogue_lines_and_duration, bottom_line_index)[1];
 	var _seconds_passed = delta_time / 1000000;
 	var _wait_amount_this_frame = _speed_up * _seconds_passed / _duration;
-	next_line_wait = clamp(next_line_wait, next_line_wait + _wait_amount_this_frame, 1);
+	next_line_wait = clamp(next_line_wait + _wait_amount_this_frame, 0, 1);
 }
 // Do we have a new line to display.
 else if (bottom_line_index < _num_dialogue_lines - 1)
@@ -62,7 +62,7 @@ else if(all_fade_out > 0)
 {
 	var _seconds_passed = delta_time / 1000000;
 	var _fade_amount_this_frame = _speed_up * _seconds_passed / 1;
-	all_fade_out = clamp(new_line_fade, 0, all_fade_out - _fade_amount_this_frame);
+	all_fade_out = clamp(all_fade_out - _fade_amount_this_frame, 0, 1);
 }
 else
 {

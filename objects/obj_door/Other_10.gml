@@ -8,7 +8,7 @@ if (animation_progress < 1)
 	{
 		var _seconds_passed = delta_time / 1000000;
 		var _animation_amount_this_frame = _seconds_passed;
-		animation_progress = clamp(animation_progress, animation_progress + _animation_amount_this_frame, 1);
+		animation_progress = clamp(animation_progress + _animation_amount_this_frame, 0, 1);
 		
 		var _open_amount = invert_open_direction ? (10 - sprite_width) : (sprite_width - 10);
 		var _is_vertical = ((abs(image_angle) - 90) % 180 == 0);
