@@ -1,4 +1,4 @@
-/// @description Start abient music
+/// @desc Start abient music
 
 with (obj_ambient_audio_controller)
 {

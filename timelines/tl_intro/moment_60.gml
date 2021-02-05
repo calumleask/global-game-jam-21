@@ -1,3 +1,3 @@
-/// @description Begin player walk to desk sequence
+/// @desc Show 1st cut scene still
 
-_start_sequence(obj_player.x, obj_player.y, seq_intro);
+_show_cut_scene_still(spr_office_still_1, 3);
