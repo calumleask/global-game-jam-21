@@ -2,8 +2,8 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Dialogue",
-    "path": "folders/Scripts/Game/Dialogue.yy",
+    "name": "Intro",
+    "path": "folders/Scripts/Game/Story/Intro.yy",
   },
   "resourceVersion": "1.0",
   "name": "story_turn_on_flashlight",

@@ -25,7 +25,7 @@
     "path": "folders/Objects/Game/Interactable.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_rubbish",
+  "name": "obj_map",
   "tags": [],
   "resourceType": "GMObject",
 }

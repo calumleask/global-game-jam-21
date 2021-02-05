@@ -46,7 +46,7 @@ if (space_prompt_alpha > 0)
 	draw_set_valign(fa_middle);
 	
 	draw_sprite_ext(spr_ui_postit, 0, 733, 468, 1, 1, 0, noone, space_prompt_alpha);
-	draw_text_transformed(870, 583, "\"" + space_prompt_text + "\"",  1, 1, 355);
+	draw_text_ext_transformed(870, 583, "\"" + space_prompt_text + "\"",  30, 140, 1, 1, 355);
 	draw_text_transformed(858, 643, press_space_text, 1, 1, 355);
 	
 	draw_set_alpha(1);

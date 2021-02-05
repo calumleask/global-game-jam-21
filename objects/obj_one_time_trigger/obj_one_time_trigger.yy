@@ -7,7 +7,10 @@
   "visible": false,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_collision_trigger",
+    "path": "objects/obj_collision_trigger/obj_collision_trigger.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -20,16 +23,11 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"obj_one_time_trigger","path":"objects/obj_one_time_trigger/obj_one_time_trigger.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  "eventList": [],
+  "properties": [],
+  "overriddenProperties": [
+    {"propertyId":{"name":"one_time_only","path":"objects/obj_collision_trigger/obj_collision_trigger.yy",},"objectId":{"name":"obj_collision_trigger","path":"objects/obj_collision_trigger/obj_collision_trigger.yy",},"value":"True","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
-  "properties": [
-    {"varType":2,"value":"obj_player","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"collision_obj","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":4,"value":"-1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"on_collision","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":3,"value":"True","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"active","tags":[],"resourceType":"GMObjectProperty",},
-    {"varType":2,"value":"","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],"resourceVersion":"1.0","name":"tag","tags":[],"resourceType":"GMObjectProperty",},
-  ],
-  "overriddenProperties": [],
   "parent": {
     "name": "Collision_Triggers",
     "path": "folders/Objects/Common/Collision_Triggers.yy",

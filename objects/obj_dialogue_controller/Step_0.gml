@@ -33,7 +33,7 @@ else if (next_line_wait < 1)
 		if (array_length(_value) == 3)
 		{
 			var _callback = _value[2];
-			if (_callback)
+			if (_callback >= 0)
 			{
 				script_execute(_callback);
 			}
@@ -66,7 +66,13 @@ else if(all_fade_out > 0)
 }
 else
 {
-	// Reset.
+	if (script_after_dialogue >= 0)
+	{
+		script_execute(script_after_dialogue);
+		script_after_dialogue = -1;
+	}
+	
+	// Reset
 	ds_list_clear(dialogue_lines_and_duration);
 	show_dialogue = false;
 	new_line_fade = 0;

@@ -21,8 +21,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Base",
-    "path": "folders/Objects/Base.yy",
+    "name": "Solid",
+    "path": "folders/Objects/Base/Solid.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_solid",

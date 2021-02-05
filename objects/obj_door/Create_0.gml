@@ -25,3 +25,18 @@ if (open)
 }
 
 polygon = polygon_from_instance(id);
+
+// Player interaction
+function _on_collision()
+{
+	_ui_show_space_prompt("Open Door");
+	interaction_hint_showing = true;
+}
+on_collision = _on_collision;
+
+function _on_collision_over()
+{
+	_ui_hide_space_prompt(true);
+	interaction_hint_showing = false;
+}
+on_collision_over = _on_collision_over;

@@ -5,7 +5,7 @@ if (instance_number(obj_button) == 0)
 	instance_destroy();
 }
 
-if (keyboard_check_pressed(vk_down))
+if (keyboard_check_pressed(vk_down) or keyboard_check_pressed(ord("S")))
 {
 	var _old_active_index = active_index;
 	with (obj_button)
@@ -43,7 +43,7 @@ if (keyboard_check_pressed(vk_down))
 		}
 	}
 }
-else if (keyboard_check_pressed(vk_up))
+else if (keyboard_check_pressed(vk_up) or keyboard_check_pressed(ord("W")))
 {
 	var _old_active_index = active_index;
 	with (obj_button)
