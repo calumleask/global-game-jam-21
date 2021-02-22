@@ -143,7 +143,7 @@
     {"id":{"name":"spr_broken_pipe","path":"sprites/spr_broken_pipe/spr_broken_pipe.yy",},"order":0,},
     {"id":{"name":"obj_sofa_chair","path":"objects/obj_sofa_chair/obj_sofa_chair.yy",},"order":2,},
     {"id":{"name":"spr_column","path":"sprites/spr_column/spr_column.yy",},"order":0,},
-    {"id":{"name":"Script66","path":"scripts/Script66/Script66.yy",},"order":2,},
+    {"id":{"name":"wait","path":"scripts/wait/wait.yy",},"order":2,},
     {"id":{"name":"shadow_map_ensure_exists","path":"scripts/shadow_map_ensure_exists/shadow_map_ensure_exists.yy",},"order":9,},
     {"id":{"name":"ext_light_attenuation_init","path":"scripts/ext_light_attenuation_init/ext_light_attenuation_init.yy",},"order":1,},
     {"id":{"name":"spr_bucket","path":"sprites/spr_bucket/spr_bucket.yy",},"order":2,},
