@@ -1,5 +1,13 @@
 /// @description Movement
 
+var _input_enabled = input_enabled;
+
+if (os_is_paused())
+{
+	_input_enabled = false;
+	ds_list_clear(direction_keys_down);
+}
+
 var seconds_passed = delta_time / 1000000;
 var walking_speed_this_frame = walking_speed_pixels_per_second * seconds_passed;
 
@@ -10,7 +18,7 @@ if (keyboard_check(vk_shift))
 
 // Handle movement keys down
 var num_direction_keys_down = ds_list_size(direction_keys_down);
-if (num_direction_keys_down > 0 and input_enabled)
+if (num_direction_keys_down > 0 and _input_enabled)
 {
 	walking = true;
 	var recent_key_down = ds_list_find_value(direction_keys_down, num_direction_keys_down - 1);
