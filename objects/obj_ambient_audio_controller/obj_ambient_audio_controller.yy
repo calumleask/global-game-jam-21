@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Audio",
-    "path": "folders/Objects/Game/Audio.yy",
+    "name": "Ambient_Audio_Controller",
+    "path": "folders/Objects/Game/Audio/Ambient_Audio_Controller.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_ambient_audio_controller",
