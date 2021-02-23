@@ -6,7 +6,7 @@
     "path": "folders/Objects/Game/Controllers/UI_Controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ui_show_space_prompt",
+  "name": "scr_ui_hide_space_prompt",
   "tags": [],
   "resourceType": "GMScript",
 }

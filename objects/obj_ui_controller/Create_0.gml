@@ -10,6 +10,8 @@ todo_alpha = 0;
 map_enabled = false;
 map_alpha = 0;
 
+force_hide = false;
+
 todo_items = ds_list_create();
 
 _add_todo_item("basement_door_1", "Check basement door is locked");

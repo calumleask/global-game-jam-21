@@ -17,7 +17,7 @@ else if (!space_prompt_show and space_prompt_alpha > 0)
 
 
 // Todo list
-var _show_todo_list = keyboard_check(ord("Q")) and map_alpha == 0 and todo_list_enabled;
+var _show_todo_list = keyboard_check(ord("Q")) and map_alpha == 0 and todo_list_enabled and !force_hide;
 
 if (_show_todo_list and todo_alpha < 1)
 {
@@ -33,7 +33,7 @@ else if (!_show_todo_list and todo_alpha > 0)
 }
 
 // Map
-var _show_map = keyboard_check(ord("E")) and todo_alpha == 0 and map_enabled;
+var _show_map = keyboard_check(ord("E")) and todo_alpha == 0 and map_enabled and !force_hide;
 
 if (_show_map and map_alpha < 1)
 {
