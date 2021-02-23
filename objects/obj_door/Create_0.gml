@@ -34,9 +34,9 @@ function _on_collision()
 }
 on_collision = _on_collision;
 
-function _on_collision_over()
+function _on_collision_end()
 {
 	_ui_hide_space_prompt(true);
 	interaction_hint_showing = false;
 }
-on_collision_over = _on_collision_over;
+on_collision_end = _on_collision_end;
