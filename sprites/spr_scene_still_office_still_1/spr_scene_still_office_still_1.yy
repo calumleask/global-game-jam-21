@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"cd0177a8-1a37-4139-9bf8-a74902fd5d43","path":"sprites/spr_office_still_1/spr_office_still_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"cd0177a8-1a37-4139-9bf8-a74902fd5d43","path":"sprites/spr_office_still_1/spr_office_still_1.yy",},"LayerId":{"name":"0a7b0651-1664-494d-988b-f28ab9da4c2b","path":"sprites/spr_office_still_1/spr_office_still_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_office_still_1","path":"sprites/spr_office_still_1/spr_office_still_1.yy",},"resourceVersion":"1.0","name":"cd0177a8-1a37-4139-9bf8-a74902fd5d43","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"cd0177a8-1a37-4139-9bf8-a74902fd5d43","path":"sprites/spr_scene_still_office_still_1/spr_scene_still_office_still_1.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"cd0177a8-1a37-4139-9bf8-a74902fd5d43","path":"sprites/spr_scene_still_office_still_1/spr_scene_still_office_still_1.yy",},"LayerId":{"name":"0a7b0651-1664-494d-988b-f28ab9da4c2b","path":"sprites/spr_scene_still_office_still_1/spr_scene_still_office_still_1.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_scene_still_office_still_1","path":"sprites/spr_scene_still_office_still_1/spr_scene_still_office_still_1.yy",},"resourceVersion":"1.0","name":"cd0177a8-1a37-4139-9bf8-a74902fd5d43","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_office_still_1","path":"sprites/spr_office_still_1/spr_office_still_1.yy",},
+    "spriteId": {"name":"spr_scene_still_office_still_1","path":"sprites/spr_scene_still_office_still_1/spr_scene_still_office_still_1.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"273d6fe7-d92a-4d91-bad5-7d4e45836287","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd0177a8-1a37-4139-9bf8-a74902fd5d43","path":"sprites/spr_office_still_1/spr_office_still_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"273d6fe7-d92a-4d91-bad5-7d4e45836287","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"cd0177a8-1a37-4139-9bf8-a74902fd5d43","path":"sprites/spr_scene_still_office_still_1/spr_scene_still_office_still_1.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,9 +58,9 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_office_still_1","path":"sprites/spr_office_still_1/spr_office_still_1.yy",},
+    "parent": {"name":"spr_scene_still_office_still_1","path":"sprites/spr_scene_still_office_still_1/spr_scene_still_office_still_1.yy",},
     "resourceVersion": "1.3",
-    "name": "spr_office_still_1",
+    "name": "spr_scene_still_office_still_1",
     "tags": [],
     "resourceType": "GMSequence",
   },
@@ -68,11 +68,11 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0a7b0651-1664-494d-988b-f28ab9da4c2b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Cut_Scene_Stills",
-    "path": "folders/Sprites/Game/Cut_Scene_Stills.yy",
+    "name": "Scene_Stills",
+    "path": "folders/Sprites/Game/Scene_Stills.yy",
   },
   "resourceVersion": "1.0",
-  "name": "spr_office_still_1",
+  "name": "spr_scene_still_office_still_1",
   "tags": [],
   "resourceType": "GMSprite",
 }

@@ -18,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_game_controller","path":"objects/obj_game_controller/obj_game_controller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_story_controller","path":"objects/obj_story_controller/obj_story_controller.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Controllers",
-    "path": "folders/Objects/Game/Controllers.yy",
+    "name": "Story_Controller",
+    "path": "folders/Objects/Game/Controllers/Story_Controller.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_game_controller",
+  "name": "obj_story_controller",
   "tags": [],
   "resourceType": "GMObject",
 }

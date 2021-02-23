@@ -1,4 +1,3 @@
-/// @description hide the player
 
 function seq_intro_Moment_print_dialogue()
 {

@@ -1,4 +1,3 @@
-/// @description hide the player
 
 function seq_intro_Moment_move_to_final_position()
 {

@@ -1,5 +1,10 @@
 /// @desc Move with player
 
+event_inherited();
+
+if (!instance_exists(obj_player))
+	return;
+
 var rebuild_shadows = false;
 
 if (obj_player.x != light[| eLight.X])

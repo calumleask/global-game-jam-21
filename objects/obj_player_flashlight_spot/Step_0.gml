@@ -1,5 +1,10 @@
 /// @desc Move with player
 
+event_inherited();
+
+if (!instance_exists(obj_player))
+	return;
+
 var reposition_torch = false;
 if (direction != obj_player.image_angle)
 {

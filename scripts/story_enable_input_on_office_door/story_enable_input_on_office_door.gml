@@ -1,4 +1,3 @@
-/// @description hide the player
 
 function _story_enable_input_on_office_door()
 {

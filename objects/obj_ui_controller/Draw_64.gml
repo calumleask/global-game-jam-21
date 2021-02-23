@@ -36,7 +36,7 @@ if (todo_alpha > 0)
 		var _item_text_y = _todo_list_y + 122 + (66 * i);
 		draw_text_ext(_item_text_x, _item_text_y, ds_map_find_value(_todo_item, "text"), 25, 189);
 		
-		if (!ds_map_find_value(_todo_item, "done"))
+		if (ds_map_find_value(_todo_item, "done"))
 		{
 			var _checkmark_x = _checkbox_x + 4;
 			var _checkmark_y = _checkbox_y - 5;
