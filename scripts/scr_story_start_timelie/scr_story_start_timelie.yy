@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Intro",
-    "path": "folders/Scripts/Game/Story/Intro.yy",
+    "name": "Story",
+    "path": "folders/Scripts/Game/Story.yy",
   },
   "resourceVersion": "1.0",
-  "name": "story_enable_input_on_office_door",
+  "name": "scr_story_start_timelie",
   "tags": [],
   "resourceType": "GMScript",
 }

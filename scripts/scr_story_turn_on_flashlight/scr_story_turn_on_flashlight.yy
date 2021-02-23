@@ -2,11 +2,11 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Story",
-    "path": "folders/Scripts/Game/Story.yy",
+    "name": "Intro",
+    "path": "folders/Scripts/Game/Story/Intro.yy",
   },
   "resourceVersion": "1.0",
-  "name": "story_start_timelie",
+  "name": "scr_story_turn_on_flashlight",
   "tags": [],
   "resourceType": "GMScript",
 }

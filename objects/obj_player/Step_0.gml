@@ -10,7 +10,7 @@ if (keyboard_check(vk_shift))
 
 // Handle movement keys down
 var num_direction_keys_down = ds_list_size(direction_keys_down);
-if (num_direction_keys_down > 0)
+if (num_direction_keys_down > 0 and input_enabled)
 {
 	walking = true;
 	var recent_key_down = ds_list_find_value(direction_keys_down, num_direction_keys_down - 1);
